@@ -11,7 +11,11 @@ if(login){
         function gotTab(tab){
             let name = document.getElementById('name').value;
             let pass = document.getElementById('password').value;
-            chrome.tabs.sendMessage(tab[0].id,name+':'+pass);
+            let data = {
+                name : name,
+                password : pass
+            }
+            chrome.tabs.sendMessage(tab[0].id,data);
         }
     })
 }
