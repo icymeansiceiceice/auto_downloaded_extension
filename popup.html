@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Auto Download Extension to UMP</title>
+		<style>
+			body {
+			font-family: Arial, sans-serif;
+			background-color: #f4f4f4;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			}
+			form {
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 8px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			width: 300px;
+			}
+			label {
+			display: block;
+			margin-bottom: 8px;
+			}
+			input {
+			width: 100%;
+			padding: 8px;
+			margin-bottom: 16px;
+			box-sizing: border-box;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			}
+			input[type="submit"] {
+			background-color: #ffb6c1;
+			color: #fff;
+			cursor: pointer;
+			}
+			input[type="submit"]:hover {
+			background-color: #ff9fa5;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="" id="login">
+			<label for="id">THINC ID:</label>
+			<input type="text" id="thincID" name="id" required />
+			<label for="password">THINC Password:</label>
+			<input type="password" id="thincPassword" name="password" required />
+			<label for="startDate">Start Date:</label>
+			<input type="date" id="startDate" name="startDate" required />
+			<label for="endDate">End Date:</label>
+			<input type="date" id="endDate" name="endDate" required />
+			<input type="submit" id="download" value="DOWNLOAD FILE" />
+		</form>
+		<script src="background.js"></script>
+	</body>
+</html>
