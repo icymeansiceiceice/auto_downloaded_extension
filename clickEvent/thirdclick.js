@@ -1,4 +1,4 @@
-let thirdClick=document.querySelector('a[href="/ump/directories/display/data/idc/htdocs/RETAIL/FPD"]');
+let thirdClick=document.querySelector('a[href=""]');
 
 if(thirdClick){    
     setTimeout(()=>{       thirdClick.click() ,5000    });  

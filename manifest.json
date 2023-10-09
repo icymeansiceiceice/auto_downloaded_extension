@@ -12,8 +12,8 @@
     "content_scripts": [
       {
         "matches": [
-          "http://ump-ap02.sys.dir.co.jp:8080/openam/UI/Login?goto=http://ump-wbv.sys.dir.co.jp/c/portal/login%3Fredirect%3D%252Fc",
-          "http://ump-ap01.sys.dir.co.jp:8080/openam/UI/Login?goto=http://ump-wbv.sys.dir.co.jp/c/portal/login%3Fredirect%3D%252Fc"
+          "",
+          ""
         ],
         "js": [
           "content.js"
@@ -21,7 +21,7 @@
       },
       {
         "matches": [
-          "http://ump-wbv.sys.dir.co.jp/web/guest/welcome"
+          ""
         ],
         "js": [
           "/clickEvent/firstclick.js"
@@ -29,8 +29,8 @@
       },
       {
         "matches": [
-          "http://idcweb02p.sys.dir.co.jp/ump/directories/main",
-          "http://idcweb01p.sys.dir.co.jp/ump/directories/main"
+          "",
+          ""
         ],
         "js": [
           "/clickEvent/secondclick.js"
@@ -38,8 +38,8 @@
       },
       {
         "matches": [
-          "http://idcweb02p.sys.dir.co.jp/ump/directories/index/F",
-          "http://idcweb01p.sys.dir.co.jp/ump/directories/index/F"
+          "",
+          ""
         ],
         "js": [
           "/clickEvent/thirdclick.js"
@@ -47,8 +47,8 @@
       },
       {
         "matches": [
-          "http://idcweb02p.sys.dir.co.jp/ump/directories/display/data/idc/htdocs/RETAIL/FPD",
-          "http://idcweb01p.sys.dir.co.jp/ump/directories/display/data/idc/htdocs/RETAIL/FPD"
+          "",
+          ""
         ],
         "js": [
           "/clickEvent/fourthclick.js"
@@ -56,8 +56,8 @@
       },
       {
         "matches": [
-          "http://idcweb02p.sys.dir.co.jp/ump/directories/display/data/idc/htdocs/RETAIL/FPD/fpd-bt01p",
-          "http://idcweb01p.sys.dir.co.jp/ump/directories/display/data/idc/htdocs/RETAIL/FPD/fpd-bt01p"
+          "",
+          ""
         ],
         "js": [
           "download.js"

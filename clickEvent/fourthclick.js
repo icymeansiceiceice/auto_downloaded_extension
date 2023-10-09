@@ -1,4 +1,4 @@
-let forthClick=document.querySelector('a[href="/ump/directories/display/data/idc/htdocs/RETAIL/FPD/fpd-bt01p"]');
+let forthClick=document.querySelector('a[href=""]');
 
 if(forthClick){    
     setTimeout(()=>{       forthClick.click() ,5000   });  
